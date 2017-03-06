@@ -31,4 +31,4 @@ EXPOSE 5080 1935 8081 8100 8088 8443 5443
 
 WORKDIR cd $OPENMEETINGS_HOME
 
-CMD ["/docker-entrypoint.sh"]
+ENTRYPOINT ["/docker-entrypoint.sh"]
