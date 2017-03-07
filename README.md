@@ -12,8 +12,11 @@ The Dockerfile builds from "java:latest" see https://hub.docker.com/_/java/
 
 # Roadmap
 
-* [X] Implement support Reverse-proxy via environment variable.
-* [X] Implement external database support (PosgreSQL, MySQL) .
+* [X] Implement support Reverse-proxy via environment variable
+* [ ] External linked database autoconf (PosgreSQL, MySQL)
+* [X] Swtools and Pdf2Swf support
+* [X] ffMpeg support
+* [X] JodConverter support
 
 # Quick Start
 
