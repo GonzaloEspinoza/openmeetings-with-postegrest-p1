@@ -83,13 +83,13 @@ fjudith/openmeetings
 Wait 3-5 minutes for Apache OpenMeetings to initialize. then login to http://ipaddress:5080.
 Then follow the install wizard.
 
-![Welcome](/img/1_Welcome.png)
-![Database Configuration](/img/2_Database_Configuration.png)
-![Initial User](/img/3_Initial_User.png)
-![Email Configuration](/img/4_Email_Configuration.png)
-![Third Party Path](/img/5_Third_Party_Path.png)
-![SIP Configuration](/img/6_SIP_Configuration.png)
-![Finish](/img/7_Finish.png)
+![Welcome](https://github.com/fjudith/docker-openmeetings/tree/master/img/1_Welcome.png)
+![Database Configuration](https://github.com/fjudith/docker-openmeetings/tree/master/img/2_Database_Configuration.png)
+![Initial User](https://github.com/fjudith/docker-openmeetings/tree/master/img/3_Initial_User.png)
+![Email Configuration](https://github.com/fjudith/docker-openmeetings/tree/master/img/4_Email_Configuration.png)
+![Third Party Path](https://github.com/fjudith/docker-openmeetings/tree/master/img/5_Third_Party_Path.png)
+![SIP Configuration](https://github.com/fjudith/docker-openmeetings/tree/master/img/6_SIP_Configuration.png)
+![Finish](https://github.com/fjudith/docker-openmeetings/tree/master/img/7_Finish.png)
 
 # Flash and Java
 
