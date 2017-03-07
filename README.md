@@ -27,7 +27,7 @@ You will need to open 2 ports:
 docker run -it --rm --name openmeetings -p 1935:1935 -p 5080:5080 -p 8081:8081 fjudith/openmeetings
 ```
 
-Then open http://ipaddress:5080/openmeetings and proceed to the installation. You may connect external database as Mysql or Postgres if you don't want to use the internal database.
+Then open http://ipaddress:5080/openmeetings and proceed to the installation
 
 # Configuration
 ## Deployment using PostgreSQL
@@ -53,8 +53,6 @@ docker run -it -d --name=openmeetings \
 fjudith/openmeetings
 ```
 
-Wait 2-3 minutes the time for Squash-TM to initialize. then login to http://localhost:32760/squash-tm
-
 ## Deployment using MySQL
 Database is created by the database container and automatically populated by the application container on first run.
 
@@ -77,6 +75,19 @@ docker run -it -d --name=openmeetings \
 -p 8081:8081 \
 fjudith/openmeetings
 ```
+
+## Initial setup
+
+Wait 3-5 minutes for Apache OpenMeetings to initialize. then login to http://ipaddress:5080.
+Then follow the install wizard.
+
+![Welcome](/img/1_Welcome.png)
+![Database Configuration](/img/2_Database_Configuration.png)
+![Initial User](/img/3_Initial_User.png)
+![Email Configuration](/img/4_Email_Configuration.png)
+![Third Party Path](/img/5_Third_Party_Path.png)
+![SIP Configuration](/img/6_SIP_Configuration.png)
+![Finish](/img/7_Finish.png)
 
 # Flash and Java
 

@@ -1,3 +1,5 @@
+#! /bin/bash
+
 # if we're linked to MySQL and thus have credentials already, let's use them
 if [[ -v MYSQL_ENV_GOSU_VERSION ]]; then
     : ${DB_TYPE='mysql'}
