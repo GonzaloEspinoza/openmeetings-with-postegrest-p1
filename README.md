@@ -83,13 +83,13 @@ fjudith/openmeetings
 Wait 3-5 minutes for Apache OpenMeetings to initialize. then login to http://ipaddress:5080.
 Then follow the install wizard.
 
-![Welcome](https://github.com/fjudith/docker-openmeetings/tree/master/img/1_Welcome.png)
-![Database Configuration](https://github.com/fjudith/docker-openmeetings/tree/master/img/2_Database_Configuration.png)
-![Initial User](https://github.com/fjudith/docker-openmeetings/tree/master/img/3_Initial_User.png)
-![Email Configuration](https://github.com/fjudith/docker-openmeetings/tree/master/img/4_Email_Configuration.png)
-![Third Party Path](https://github.com/fjudith/docker-openmeetings/tree/master/img/5_Third_Party_Path.png)
-![SIP Configuration](https://github.com/fjudith/docker-openmeetings/tree/master/img/6_SIP_Configuration.png)
-![Finish](https://github.com/fjudith/docker-openmeetings/tree/master/img/7_Finish.png)
+![Welcome](https://cdn.rawgit.com/fjudith/docker-openmeetings/master/img/1_Welcome.png)
+![Database Configuration](https://cdn.rawgit.com/fjudith/docker-openmeetings/master/img/2_Database_Configuration.png)
+![Initial User](https://cdn.rawgit.com/fjudith/docker-openmeetings/master/img/3_Initial_User.png)
+![Email Configuration](https://cdn.rawgit.com/fjudith/docker-openmeetings/master/img/4_Email_Configuration.png)
+![Third Party Path](https://cdn.rawgit.com/fjudith/docker-openmeetings/master/img/5_Third_Party_Path.png)
+![SIP Configuration](https://cdn.rawgit.com/fjudith/docker-openmeetings/master/img/6_SIP_Configuration.png)
+![Finish](https://cdn.rawgit.com/fjudith/docker-openmeetings/master/img/7_Finish.png)
 
 # Flash and Java
 
