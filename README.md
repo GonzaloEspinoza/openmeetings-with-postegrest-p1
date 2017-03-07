@@ -1,3 +1,5 @@
+[![](https://images.microbadger.com/badges/image/fjudith/openmeetings.svg)](https://microbadger.com/images/fjudith/openmeetings "Get your own image badge on microbadger.com")
+
 # Introduction
 
 OpenMeetings is software used for presenting, online training, web conferencing, collaborative whiteboard drawing and document editing, and user desktop sharing.
