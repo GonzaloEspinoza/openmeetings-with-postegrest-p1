@@ -81,7 +81,7 @@ fjudith/openmeetings
 ## Initial setup
 
 Wait 3-5 minutes for Apache OpenMeetings to initialize. then login to http://ipaddress:5080.
-Then follow the install wizard.
+Then follow the installation wizard.
 
 ![Welcome](https://cdn.rawgit.com/fjudith/docker-openmeetings/master/img/1_Welcome.png)
 ![Database Configuration](https://cdn.rawgit.com/fjudith/docker-openmeetings/master/img/2_Database_Configuration.png)
