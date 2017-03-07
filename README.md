@@ -6,7 +6,7 @@ OpenMeetings is software used for presenting, online training, web conferencing,
 
 # Description
 
-The Dockerfile builds from "java:latest" see https://hub.docker.com/_/java/
+The Dockerfile builds from "openjdk" see https://hub.docker.com/_/openjdk/
 
 # Roadmap
 
