@@ -6,6 +6,8 @@ ENV VERSION 3.2.0
 ENV RED5_HOME /opt/apache-openmeetings
 ENV TERM=xterm
 
+COPY assets/om_ad.cfg $RED5_HOME/webapps/openmeetings/conf/
+
 RUN mkdir -p $RED5_HOME && \
     cd $RED5_HOME && \
     wget http://apache.crihan.fr/dist/openmeetings/$VERSION/bin/apache-openmeetings-$VERSION.tar.gz && \
