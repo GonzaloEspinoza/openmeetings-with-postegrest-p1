@@ -3,23 +3,27 @@ FROM openjdk
 MAINTAINER Florian JUDITH <florian.judith.b@gmail.com>
 
 ENV VERSION 3.2.0
-ENV OPENMEETINGS_HOME /opt/apache-openmeetings
+ENV RED5_HOME /opt/apache-openmeetings
 ENV TERM=xterm
 
-RUN mkdir -p $OPENMEETINGS_HOME && \
-    cd $OPENMEETINGS_HOME && \
+RUN mkdir -p $RED5_HOME && \
+    cd $RED5_HOME && \
     wget http://apache.crihan.fr/dist/openmeetings/$VERSION/bin/apache-openmeetings-$VERSION.tar.gz && \
     tar zxf apache-openmeetings-$VERSION.tar.gz
 
 RUN cat /etc/apt/sources.list | sed 's/^deb\s/deb-src /g' >> /etc/apt/sources.list && \
     apt-get update && \
     apt-get install -y \
+        slapd \
+        ldap-utils \
         libreoffice \
         ffmpeg \
         ghostscript \
         imagemagick \
         sox \
         xmlstarlet
+
+RUN dpkg-reconfigure slapd
 
 # swftools
 COPY assets/jpeg.patch /tmp/jpeg.patch
@@ -70,6 +74,6 @@ RUN chmod +x /docker-entrypoint.sh
 
 EXPOSE 5080 1935 8081 8100 8088 8443 5443
 
-WORKDIR $OPENMEETINGS_HOME
+WORKDIR $RED5_HOME
 
 ENTRYPOINT ["/docker-entrypoint.sh"]
