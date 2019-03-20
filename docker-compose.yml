@@ -1,0 +1,26 @@
+#docker-compose -f docker/dev/docker-compose.yml up
+version: '3'
+services:
+  blog:
+    image: fjudith/openmeetings
+    ports:
+        - 1935:1935 
+        - 5080:5080 
+        - 8081:8081 
+    volumes:
+        - ../../:/var/www
+        - ../uploads:/media/uploads
+    command: /usr/sbin/apache2ctl -D FOREGROUND
+    environment:
+      - "POSTGRES_PASSWORD=admin"
+      - “POSTGRES_USER=openmeetings"
+      - "POSTGRES_HOST=localhost"
+      - "POSTGRES_DB=openmeetings"
+  postgres:
+      image: postgres
+      ports:
+          - 5432:5432
+      environment:
+        POSTGRES_ROOT_PASSWORD: "admin"
+      volumes:
+          - ../data:/var/lib/postgres
